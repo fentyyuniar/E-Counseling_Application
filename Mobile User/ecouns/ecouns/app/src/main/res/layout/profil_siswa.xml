@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/tv_tanggallahir"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Tanggal Lahir"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tempatlahir"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/tv_nis"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Nomor Induk Siswa"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Nama Siswa"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nis"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <TextView
+        android:id="@+id/tv_kelas"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Kelas"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/tv_tempatlahir"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Tempat Lahir"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_kelas"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Email"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tanggallahir"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/tv_nohp"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Nomor Handphone"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/tv_jenkal"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Jenis Kelamin"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nohp"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_profile"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Alamat Siswa"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jenkal"
+        app:layout_constraintVertical_bias="0.161" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

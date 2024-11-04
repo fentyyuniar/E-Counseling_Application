@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ecouns</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="content_desc_profil_siswa">profil siswa</string>
+    <string name="content_desc_konsultasi_siswa">konsultasi siswa</string>
+    <string name="content_desc_keluhan_siswa">keluhan siswa</string>
+    <string name="content_desc_pengaduan">pengaduan</string>
+    <string name="content_desc_kirim">kirim</string>
+    <string name="content_desc_pengaduan_text">pengaduan</string>
+    <string name="content_desc_kirim_text">kirim</string>
+    <string name="content_desc_kirim2">kirim</string>
+    <string name="content_desc_enter_password">enter password</string>
+    <string name="content_desc_email">email</string>
+    <string name="content_desc_btn_login">login</string>
+</resources>
